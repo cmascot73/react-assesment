@@ -9,10 +9,10 @@ function App(){
   return(
     <>
       <BrowserRouter>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/Modules">Modules</Link>
-          <Link to="/Exams">Exams</Link>
+        <nav className="flex justify-center items-center text-white bg-blue-500 h-20 w-full">
+          <Link to="/" class="flex mr-3">Home</Link>
+          <Link to="/Modules" class="flex mr-3">Modules</Link>
+          <Link to="/Exams" class="flex mr-3">Exams</Link>
           <Link to="/AboutUs">AboutUs</Link>
         </nav>
         <Routes>

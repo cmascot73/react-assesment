@@ -4,12 +4,11 @@ function Modules(){
     return(
         <>
             <div>
-                <h2>Modules in software development(SOD)</h2>
+                <h2 className="bg-blue-200">Modules in software development(SOD)</h2>
             </div>
-            <div>
+            <div className="bg-green-300" >
                 <p>Backend System design</p>
                 <p>Database Development</p>
-                <p></p>
             </div>
         </>
     );
